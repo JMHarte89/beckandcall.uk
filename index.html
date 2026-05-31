@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beck & Call — Websites for Cumbrian Businesses</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Schibsted+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1c2620;
+    --slate: #3f4f47;
+    --stone: #6b7872;
+    --mist: #f4f2ec;
+    --paper: #fbfaf6;
+    --moss: #2f5d4f;
+    --moss-deep: #234438;
+    --accent: #c2703d;
+    --line: #dcd9cf;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Schibsted Grotesk', sans-serif;
+    color: var(--ink);
+    background: var(--paper);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 0 28px; }
+  h1, h2, h3 { font-family: 'Fraunces', serif; font-weight: 500; line-height: 1.12; letter-spacing: -0.01em; }
+
+  /* Nav */
+  nav {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(251,250,246,0.86);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line);
+  }
+  .nav-inner { display: flex; justify-content: space-between; align-items: center; padding: 18px 28px; max-width: 1100px; margin: 0 auto; }
+  .logo { font-family: 'Fraunces', serif; font-size: 1.35rem; font-weight: 600; color: var(--moss-deep); letter-spacing: -0.02em; }
+  .logo span { color: var(--accent); }
+  .nav-links { display: flex; gap: 30px; align-items: center; }
+  .nav-links a { color: var(--slate); text-decoration: none; font-size: 0.95rem; font-weight: 500; transition: color .2s; }
+  .nav-links a:hover { color: var(--moss); }
+  .nav-cta { background: var(--moss); color: var(--paper) !important; padding: 9px 18px; border-radius: 100px; }
+  .nav-cta:hover { background: var(--moss-deep); color: #fff !important; }
+  @media (max-width: 720px){ .nav-links a:not(.nav-cta){ display:none; } }
+
+  /* Hero */
+  .hero { padding: 90px 0 80px; position: relative; overflow: hidden; }
+  .hero::before {
+    content:''; position:absolute; inset:0;
+    background:
+      radial-gradient(ellipse 60% 50% at 80% 0%, rgba(47,93,79,0.07), transparent 70%),
+      radial-gradient(ellipse 50% 40% at 0% 100%, rgba(194,112,61,0.06), transparent 70%);
+    pointer-events:none;
+  }
+  .eyebrow { font-size: 0.82rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); margin-bottom: 22px; }
+  .hero h1 { font-size: clamp(2.4rem, 6vw, 4rem); max-width: 14ch; margin-bottom: 26px; color: var(--ink); }
+  .hero h1 em { font-style: italic; color: var(--moss); }
+  .hero p { font-size: 1.2rem; color: var(--slate); max-width: 52ch; margin-bottom: 36px; }
+  .btn-row { display: flex; gap: 14px; flex-wrap: wrap; }
+  .btn {
+    display: inline-block; padding: 14px 28px; border-radius: 100px;
+    font-weight: 600; font-size: 1rem; text-decoration: none; transition: all .2s; cursor: pointer; border: none;
+  }
+  .btn-primary { background: var(--moss); color: var(--paper); }
+  .btn-primary:hover { background: var(--moss-deep); transform: translateY(-1px); }
+  .btn-ghost { background: transparent; color: var(--moss-deep); border: 1.5px solid var(--line); }
+  .btn-ghost:hover { border-color: var(--moss); }
+
+  /* Section base */
+  section { padding: 80px 0; }
+  .section-head { max-width: 56ch; margin-bottom: 50px; }
+  .section-head .eyebrow { margin-bottom: 14px; }
+  .section-head h2 { font-size: clamp(1.9rem, 4vw, 2.7rem); margin-bottom: 16px; }
+  .section-head p { font-size: 1.1rem; color: var(--stone); }
+
+  /* Pitch strip */
+  .pitch { background: var(--moss-deep); color: var(--mist); }
+  .pitch .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; }
+  .pitch h3 { font-size: 1.25rem; color: #fff; margin-bottom: 10px; }
+  .pitch p { color: rgba(244,242,236,0.78); font-size: 0.98rem; }
+  .pitch .num { font-family:'Fraunces',serif; font-size: 1.6rem; color: var(--accent); margin-bottom: 8px; display:block; }
+  @media (max-width: 720px){ .pitch .grid{ grid-template-columns:1fr; gap:30px; } }
+
+  /* Tiers */
+  .tiers { display: grid; grid-template-columns: repeat(3,1fr); gap: 24px; }
+  .tier {
+    background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 32px 28px;
+    display: flex; flex-direction: column; transition: transform .2s, box-shadow .2s;
+  }
+  .tier:hover { transform: translateY(-4px); box-shadow: 0 18px 40px -22px rgba(35,68,56,0.4); }
+  .tier h3 { font-size: 1.35rem; margin-bottom: 6px; }
+  .tier .price { font-family:'Fraunces',serif; font-size: 2.3rem; font-weight:600; color: var(--moss-deep); margin: 8px 0 4px; }
+  .tier .price small { font-size: 0.9rem; color: var(--stone); font-family:'Schibsted Grotesk',sans-serif; font-weight:500; }
+  .tier .best-for { font-size: 0.92rem; color: var(--slate); margin: 14px 0 8px; line-height:1.45; }
+  .tier .examples-line { font-size: 0.82rem; color: var(--accent); font-weight:500; padding-bottom: 16px; border-bottom: 1px solid var(--line); }
+  .tier ul { list-style: none; margin: 18px 0 28px; flex-grow:1; }
+  .tier li { padding: 8px 0 8px 28px; position: relative; font-size: 0.96rem; color: var(--slate); border-bottom: 1px solid var(--mist); }
+  .tier li:last-child { border-bottom: none; }
+  .tier li::before { content:'✓'; position:absolute; left:0; color: var(--moss); font-weight:700; }
+  @media (max-width: 860px){ .tiers{ grid-template-columns:1fr; } }
+
+  /* Examples */
+  .examples { background: var(--mist); }
+  .ex-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 24px; }
+  .ex {
+    background:#fff; border-radius:14px; overflow:hidden; border:1px solid var(--line);
+    text-decoration:none; color:inherit; transition: transform .2s, box-shadow .2s;
+  }
+  .ex:hover { transform: translateY(-4px); box-shadow: 0 18px 40px -22px rgba(35,68,56,0.4); }
+  .ex .thumb { height: 150px; display:flex; align-items:center; justify-content:center; font-family:'Fraunces',serif; font-size:1.4rem; color:#fff; }
+  .ex:nth-child(1) .thumb { background: linear-gradient(135deg, #2f5d4f, #234438); }
+  .ex:nth-child(2) .thumb { background: linear-gradient(135deg, #3a6b8a, #2a4f66); }
+  .ex:nth-child(3) .thumb { background: linear-gradient(135deg, #b5673a, #8f4f2c); }
+  .ex .body { padding: 20px 22px 24px; }
+  .ex .tag { font-size:0.78rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--accent); }
+  .ex h3 { font-size:1.15rem; margin:6px 0 6px; }
+  .ex p { font-size:0.92rem; color:var(--stone); }
+  @media (max-width: 860px){ .ex-grid{ grid-template-columns:1fr; } }
+
+  /* Why me */
+  .why-grid { display:grid; grid-template-columns: repeat(2,1fr); gap: 32px 56px; }
+  .why-item h3 { font-size:1.2rem; margin-bottom:8px; color:var(--moss-deep); }
+  .why-item p { color: var(--slate); font-size:0.98rem; }
+  @media (max-width: 720px){ .why-grid{ grid-template-columns:1fr; } }
+
+  /* Contact */
+  .contact { background: var(--moss-deep); color: var(--mist); }
+  .contact-inner { display:grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items:start; }
+  .contact h2 { color:#fff; font-size: clamp(1.9rem,4vw,2.6rem); margin-bottom:16px; }
+  .contact p { color: rgba(244,242,236,0.8); margin-bottom: 20px; }
+  .contact a.mail { color: var(--accent); text-decoration:none; font-weight:600; }
+  form { display:flex; flex-direction:column; gap:14px; }
+  form input, form textarea {
+    background: rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.18); border-radius:10px;
+    padding:13px 16px; color:#fff; font-family:inherit; font-size:0.98rem;
+  }
+  form input::placeholder, form textarea::placeholder { color: rgba(244,242,236,0.5); }
+  form input:focus, form textarea:focus { outline:none; border-color: var(--accent); }
+  form button { background: var(--accent); color:#fff; padding:14px; border:none; border-radius:100px; font-weight:600; font-size:1rem; cursor:pointer; font-family:inherit; transition: background .2s; }
+  form button:hover { background:#a85c2f; }
+  @media (max-width: 720px){ .contact-inner{ grid-template-columns:1fr; gap:36px; } }
+
+  footer { background: var(--ink); color: rgba(244,242,236,0.6); text-align:center; padding: 30px; font-size:0.88rem; }
+  footer .logo { font-size:1.1rem; display:block; margin-bottom:8px; }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <div class="logo">Beck &amp; Call<span>.</span></div>
+    <div class="nav-links">
+      <a href="#pricing">Pricing</a>
+      <a href="#work">Examples</a>
+      <a href="#why">Why me</a>
+      <a href="#contact" class="nav-cta">Get in touch</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Web design · Kendal &amp; South Lakeland</div>
+    <h1>Clean websites for <em>local</em> Cumbrian businesses.</h1>
+    <p>Clean, fast websites built for tradespeople and independents — no monthly lock-in, no jargon. I handle every bit of the technical side. The site is genuinely yours.</p>
+    <div class="btn-row">
+      <a href="#contact" class="btn btn-primary">Get a free demo</a>
+      <a href="#pricing" class="btn btn-ghost">See pricing</a>
+    </div>
+  </div>
+</header>
+
+<section class="pitch">
+  <div class="wrap">
+    <div class="grid">
+      <div>
+        <span class="num">01</span>
+        <h3>Built, not rented</h3>
+        <p>Unlike Wix or Squarespace, you don't pay forever. The site is built once and handed over to you to own.</p>
+      </div>
+      <div>
+        <span class="num">02</span>
+        <h3>I do the technical bit</h3>
+        <p>Domain, hosting, email, your Google profile — I set it all up and hand you the keys with a plain-English guide.</p>
+      </div>
+      <div>
+        <span class="num">03</span>
+        <h3>Local and independent</h3>
+        <p>Based in Kendal, working with Cumbrian businesses. You deal with one person, not a faceless agency.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Pricing</div>
+      <h2>Straightforward prices, no hidden costs.</h2>
+      <p>One-off fees. The website is yours when it's done. The only ongoing cost is your domain name (typically around £10/year, paid directly to the registrar in your name). Optional hosting &amp; updates from £20/month if you'd rather I look after it.</p>
+    </div>
+    <div class="tiers">
+      <div class="tier">
+        <h3>Starter</h3>
+        <div class="price">£299</div>
+        <div class="best-for">Best for sole traders who just need to be found and called</div>
+        <p class="examples-line">Plumbers · electricians · gardeners · window cleaners · mobile groomers</p>
+        <ul>
+          <li>Single-page mobile-friendly site</li>
+          <li>Click-to-call &amp; contact form</li>
+          <li>Your Google reviews on show</li>
+          <li>Built and handed over to you</li>
+        </ul>
+        <a href="#contact" class="btn btn-ghost">Enquire</a>
+      </div>
+      <div class="tier">
+        <h3>Standard</h3>
+        <div class="price">£499</div>
+        <div class="best-for">Best for established businesses taking bookings or building a customer list</div>
+        <p class="examples-line">Dog groomers · cafés · beauticians · physios · driving instructors</p>
+        <ul>
+          <li>Everything in Starter</li>
+          <li>Mailing list signup</li>
+          <li>Online enquiry / booking widget</li>
+          <li>Google Business Profile set up</li>
+          <li>Full handover document</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">Enquire</a>
+      </div>
+      <div class="tier">
+        <h3>Premium</h3>
+        <div class="price">£799<small> +</small></div>
+        <div class="best-for">Best for firms with a team, a portfolio or a range of services to show off</div>
+        <p class="examples-line">Construction firms · dental surgeries · holiday lets · estate agents</p>
+        <ul>
+          <li>Multi-page custom site</li>
+          <li>Custom domain &amp; email setup</li>
+          <li>Logo / branding help if needed</li>
+          <li>Project gallery / coverage finder</li>
+          <li>Priority support option</li>
+        </ul>
+        <a href="#contact" class="btn btn-ghost">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="work" class="examples">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Examples</div>
+      <h2>The kind of sites I build.</h2>
+      <p>Real, working examples across different trades. Yours would be built around your business, your photos and your customers.</p>
+    </div>
+    <div class="ex-grid">
+      <a href="#" class="ex">
+        <div class="thumb">Tradesman</div>
+        <div class="body">
+          <span class="tag">Plumbing &amp; Heating</span>
+          <h3>Local trade site</h3>
+          <p>One-page site with click-to-call, service list and Google reviews front and centre.</p>
+        </div>
+      </a>
+      <a href="https://homestepphysio.co.uk" class="ex">
+        <div class="thumb">Physio</div>
+        <div class="body">
+          <span class="tag">Healthcare</span>
+          <h3>Private practice</h3>
+          <p>Booking-ready site with a postcode coverage checker and online enquiries.</p>
+        </div>
+      </a>
+      <a href="#" class="ex">
+        <div class="thumb">Dental</div>
+        <div class="body">
+          <span class="tag">Healthcare</span>
+          <h3>Dental surgery</h3>
+          <p>Multi-page site with treatments, team profiles and new-patient enquiry forms.</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="why">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Why work with me</div>
+      <h2>One person, doing it right.</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-item">
+        <h3>You own everything</h3>
+        <p>Domain, hosting, accounts — all set up in your name. No being held hostage by an agency that won't hand things over.</p>
+      </div>
+      <div class="why-item">
+        <h3>No tech headache</h3>
+        <p>You don't need to understand DNS or hosting. I set it all up and walk you through exactly what's what.</p>
+      </div>
+      <div class="why-item">
+        <h3>Get found on Google</h3>
+        <p>I set up your Google Business Profile so you start collecting reviews and showing up in local searches.</p>
+      </div>
+      <div class="why-item">
+        <h3>See it before you buy</h3>
+        <p>I'll build you a free demo of your own site first. If you like it, it's yours. No pressure either way.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap">
+    <div class="contact-inner">
+      <div>
+        <h2>Let's get your business online.</h2>
+        <p>Tell me a bit about what you do and I'll put together a free demo — no cost, no obligation.</p>
+        <p>Prefer to email? <a href="mailto:hello@beckandcall.uk" class="mail">hello@beckandcall.uk</a></p>
+      </div>
+      <form action="https://formspree.io/f/mjgzqvgj" method="POST">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="text" name="business" placeholder="Business name" required>
+        <input type="email" name="email" placeholder="Email address" required>
+        <textarea name="message" rows="4" placeholder="What does your business do?" required></textarea>
+        <button type="submit">Request my free demo</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span class="logo">Beck &amp; Call<span style="color:var(--accent)">.</span></span>
+  Websites for Cumbrian businesses · Kendal, Cumbria · © 2026
+</footer>
+
+</body>
+</html>
