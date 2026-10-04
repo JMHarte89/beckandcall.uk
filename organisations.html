@@ -3,15 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>For Organisations — Maps, Analysis and Asset Tools | Beck &amp; Call Digital</title>
-<meta name="description" content="Catchment maps, LIDAR terrain, river level analysis and asset registers, built in code from open data. Examples you can inspect, each one labelled as open data or concept.">
+<title>For Organisations — Survey Data, Terrain and Maps | Beck &amp; Call Digital</title>
+<meta name="description" content="LIDAR change detection, point clouds, seabed and terrain analysis, time series and registers, built in code. Examples you can inspect, each labelled as open data or concept.">
 <link rel="canonical" href="https://beckandcall.uk/organisations.html">
 
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://beckandcall.uk/organisations.html">
 <meta property="og:site_name" content="Beck &amp; Call Digital">
-<meta property="og:title" content="For Organisations — Maps, Analysis and Asset Tools | Beck &amp; Call Digital">
-<meta property="og:description" content="Catchment maps, LIDAR terrain, river level analysis and asset registers, built in code from open data.">
+<meta property="og:title" content="For Organisations — Survey Data, Terrain and Maps | Beck &amp; Call Digital">
+<meta property="og:description" content="LIDAR change detection, point clouds, seabed and terrain analysis, time series and registers, built in code.">
 <meta property="og:locale" content="en_GB">
 <meta name="twitter:card" content="summary">
 
@@ -37,35 +37,35 @@
 <header class="hero short">
   <div class="wrap">
     <div class="eyebrow">For organisations</div>
-    <h1>Maps, analysis and tools for people who look after <em>assets</em>.</h1>
-    <p class="lede">Catchments, terrain, river levels and asset registers, turned into maps you can read, charts that answer a question, and tools your team can use. Below is the kind of thing I build, not a description of it.</p>
+    <h1>Survey data, terrain and records, turned into something you can <em>read</em>.</h1>
+    <p class="lede">LIDAR, point clouds, seabed surfaces, gauge readings and registers. I take the raw files, do the measuring, and hand back maps, charts and tools. Below is the work itself, not a description of it.</p>
   </div>
 </header>
 
 <section class="tight figs">
   <div class="wrap">
     <div class="note">
-      <strong>What you are looking at.</strong> None of these figures is client work. Three are built from open Environment Agency data for upper Wharfedale in the Yorkshire Dales and are marked <span class="status live">Open data</span>. Four are concepts and are marked <span class="status building">Concept</span>: one replays the same open readings through an interface, and three use a made-up stock of structures. Every figure is drawn in code, so it can be rebuilt when the data changes.
+      <strong>What you are looking at.</strong> None of these figures is client work. Five are built from open Environment Agency data, for the Holderness coast in East Yorkshire and for upper Wharfedale in the Yorkshire Dales, and are marked <span class="status live">Open data</span>. One is an interface concept using made-up data and is marked <span class="status building">Concept</span>. Every figure is drawn in code, so it can be rebuilt when the data changes.
     </div>
 
     <div class="section-head">
-      <div class="eyebrow">Maps and terrain</div>
-      <h2>From a LIDAR tile to a map that answers a question.</h2>
-      <p>Which land drains to this point, how big is it, and what is measured inside it.</p>
+      <div class="eyebrow">Change over time</div>
+      <h2>Two surveys of the same ground, and what moved between them.</h2>
+      <p>The same method works for a cliff, a river bank, a stockpile, a quarry face or a beach.</p>
     </div>
 
     <figure class="fig">
       <div class="fig-scroll">
-        <a href="assets/org/catchment-map.svg"><img src="assets/org/catchment-map.svg" width="960" height="576" alt="Map of the catchment draining to the Kettlewell river level gauge in the Yorkshire Dales, with elevation bands, the derived stream network and four Environment Agency gauges."></a>
+        <a href="assets/org/cliff-erosion.svg"><img src="assets/org/cliff-erosion.svg" width="960" height="806" alt="Map of ground level change between LIDAR surveys in 2008 and 2023 on the Holderness coast at Aldbrough, with a chart of cliff retreat on 53 transects."></a>
       </div>
-      <figcaption><span class="status live">Open data</span> The 93.2 km² of upper Wharfedale that drains to the Kettlewell gauge, traced from Environment Agency LIDAR, with 70 km of streams and the four gauges inside it.</figcaption>
+      <figcaption><span class="status live">Open data</span> LIDAR surveys from 2008 and 2023 compared along 1.1 km of the Holderness coast: the cliff went back 22.7 m on average, 1.55 m a year, and 462,000 m³ of it is gone.</figcaption>
     </figure>
 
     <figure class="fig">
       <div class="fig-scroll">
-        <a href="assets/org/valley-lidar.svg"><img src="assets/org/valley-lidar.svg" width="960" height="760" loading="lazy" alt="Contour map of the valley floor at Kettlewell built from 1 metre LIDAR, with a terrain cross-section through the river level gauge."></a>
+        <a href="assets/org/point-clouds.svg"><img src="assets/org/point-clouds.svg" width="960" height="690" loading="lazy" alt="Oblique views of LIDAR point clouds of the same cliff in 2008 and 2023, and a cross-section through both showing the cliff face 38 metres further inland."></a>
       </div>
-      <figcaption><span class="status live">Open data</span> One-metre LIDAR of the valley floor at Kettlewell, contoured at 1 m on the flat and 5 m on the sides, with a section cut through the gauge.</figcaption>
+      <figcaption><span class="status live">Open data</span> The raw survey points for one 220 m block of that cliff in 2008 and 2023, and a section through both where the face has moved 38.2 m inland.</figcaption>
     </figure>
   </div>
 </section>
@@ -73,23 +73,23 @@
 <section class="examples figs">
   <div class="wrap">
     <div class="section-head">
-      <div class="eyebrow">Monitoring</div>
-      <h2>A level, a threshold, and when one crossed the other.</h2>
-      <p>Public gauge feeds are free and update every fifteen minutes. The work is in making them say something.</p>
+      <div class="eyebrow">Seabed and terrain</div>
+      <h2>What the ground is doing, above the water and below it.</h2>
+      <p>Depths, gradients, sections, and where water runs to.</p>
     </div>
 
     <figure class="fig">
       <div class="fig-scroll">
-        <a href="assets/org/level-threshold.svg"><img src="assets/org/level-threshold.svg" width="960" height="590" loading="lazy" alt="Chart of river level at the Kettlewell gauge from 23 to 27 March 2026 against the top of its typical range, with hourly rainfall at Beckermonds above."></a>
+        <a href="assets/org/nearshore-seabed.svg"><img src="assets/org/nearshore-seabed.svg" width="960" height="808" loading="lazy" alt="Depth map of the seabed off Aldbrough in two-metre bands to 14.6 metres below datum, with a profile from the cliff top out to sea."></a>
       </div>
-      <figcaption><span class="status live">Open data</span> River Wharfe at Kettlewell, 23 to 27 March 2026: 62 mm of rain upstream, a 1.60 m rise, and 1 hour 45 minutes above the top of the gauge's typical range.</figcaption>
+      <figcaption><span class="status live">Open data</span> Four kilometres of seabed off the same coast, banded every 2 m of depth, with a profile from the cliff top to 14 m down: the bed falls about 1 in 80.</figcaption>
     </figure>
 
     <figure class="fig">
       <div class="fig-scroll">
-        <a href="assets/org/level-alerts.svg"><img src="assets/org/level-alerts.svg" width="960" height="532" loading="lazy" alt="Interface concept showing three river level gauges against their triggers at 20:30 on 24 March 2026, with a log of when each trigger was crossed."></a>
+        <a href="assets/org/catchment-map.svg"><img src="assets/org/catchment-map.svg" width="960" height="576" loading="lazy" alt="Map of the catchment draining to the Kettlewell river level gauge in the Yorkshire Dales, with elevation bands, the derived stream network and four gauges."></a>
       </div>
-      <figcaption><span class="status building">Concept</span> The same March 2026 readings replayed through an alerting view, showing which gauge crossed its trigger and when. Two of the three triggers are illustrative.</figcaption>
+      <figcaption><span class="status live">Open data</span> Terrain analysis of upper Wharfedale: the 93.2 km² that drains to one gauge, and 70 km of stream lines, worked out from the LIDAR alone.</figcaption>
     </figure>
   </div>
 </section>
@@ -97,30 +97,23 @@
 <section class="figs">
   <div class="wrap">
     <div class="section-head">
-      <div class="eyebrow">Asset analysis</div>
-      <h2>A whole stock on one page.</h2>
-      <p>Where the poor structures are, which inspections have slipped, and which schemes are worth doing. These three use made-up data, because a real register belongs to whoever owns the assets.</p>
+      <div class="eyebrow">Measurements and records</div>
+      <h2>Readings and registers people can use.</h2>
+      <p>A feed that updates every fifteen minutes, or a list that has outgrown its spreadsheet.</p>
     </div>
 
     <figure class="fig">
       <div class="fig-scroll">
-        <a href="assets/org/condition-distribution.svg"><img src="assets/org/condition-distribution.svg" width="960" height="430" loading="lazy" alt="Stacked bars showing the share of 412 synthetic structures at each condition grade, by type, with counts of poor structures and overdue inspections."></a>
+        <a href="assets/org/level-threshold.svg"><img src="assets/org/level-threshold.svg" width="960" height="590" loading="lazy" alt="Chart of river level at the Kettlewell gauge from 23 to 27 March 2026 against the top of its typical range, with hourly rainfall above."></a>
       </div>
-      <figcaption><span class="status building">Concept</span> Illustrative data: condition grades across a made-up stock of 412 structures, showing where the poor ones and the overdue inspections sit.</figcaption>
-    </figure>
-
-    <figure class="fig">
-      <div class="fig-scroll">
-        <a href="assets/org/benefit-cost.svg"><img src="assets/org/benefit-cost.svg" width="960" height="578" loading="lazy" alt="Ranked chart of 24 synthetic candidate schemes showing each benefit-cost ratio with its sensitivity range against a break-even line."></a>
-      </div>
-      <figcaption><span class="status building">Concept</span> Illustrative data: 24 candidate schemes ranked by benefit-cost ratio, with the range each one moves through when the assumptions change.</figcaption>
+      <figcaption><span class="status live">Open data</span> River Wharfe at Kettlewell, 23 to 27 March 2026: 62 mm of rain upstream, a 1.60 m rise, and 1 hour 45 minutes above the top of the gauge&#39;s typical range.</figcaption>
     </figure>
 
     <figure class="fig">
       <div class="fig-scroll">
         <a href="assets/org/structures-register.svg"><img src="assets/org/structures-register.svg" width="960" height="600" loading="lazy" alt="Interface concept showing a register of structures filtered to poor condition, sorted by inspection due date, with one culvert record open."></a>
       </div>
-      <figcaption><span class="status building">Concept</span> Illustrative data: a register filtered to the structures in poor condition, with one record open.</figcaption>
+      <figcaption><span class="status building">Concept</span> Illustrative data: a register filtered to the records that need attention, with one open. The same layout suits any list of things that get inspected.</figcaption>
     </figure>
   </div>
 </section>
@@ -134,15 +127,17 @@
     </div>
     <div class="prose wrap-scroll">
       <table class="spec">
-        <tr><th>Terrain</th><td>Environment Agency LIDAR Composite DTM at 1 m, fetched for the area needed. The catchment map uses it resampled to 20 m.</td></tr>
-        <tr><th>River and rain</th><td>Environment Agency hydrology service: 15-minute level at Kettlewell, Starbotton and Oughtershaw Beck, and rainfall at Beckermonds. Readings are shown as published, before the Agency's quality checks.</td></tr>
-        <tr><th>Catchment and streams</th><td>Worked out from the terrain with WhiteboxTools: drainage direction, flow accumulation, then the area upstream of the gauge.</td></tr>
-        <tr><th>Asset figures</th><td>A made-up stock from a seeded generator, so the same figures come out every time. It describes no real asset, place or organisation.</td></tr>
+        <tr><th>Dated LIDAR</th><td>Environment Agency time-stamped 1 m terrain tiles, flown 15 September 2008 and 20 April 2023. One subtracted from the other gives the change.</td></tr>
+        <tr><th>Point clouds</th><td>The Environment Agency's LAZ point cloud tiles for the same two flights, read directly and drawn point by point.</td></tr>
+        <tr><th>Seabed</th><td>The Environment Agency SurfZone DEM 2019, a published 2 m surface that joins land LIDAR to seabed data. It is a ready-made product, not a survey I processed from soundings.</td></tr>
+        <tr><th>Terrain analysis</th><td>Environment Agency LIDAR Composite, with drainage direction and flow accumulation worked out in WhiteboxTools.</td></tr>
+        <tr><th>River and rain</th><td>Environment Agency hydrology service, 15-minute readings, shown as published before the Agency's quality checks.</td></tr>
+        <tr><th>Register</th><td>A made-up stock from a seeded generator. It describes no real asset, place or organisation.</td></tr>
         <tr><th>Drawing</th><td>Python writing SVG directly. No screenshots and no image files, so every figure stays sharp at any size.</td></tr>
         <tr><th>Your data</th><td>Stays yours. I work on a copy you control, and the scripts and outputs are handed over with the work.</td></tr>
       </table>
     </div>
-    <p class="credit">Contains Environment Agency information © Environment Agency and/or database right, used under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>. Catchment, streams, contours and charts derived by Beck &amp; Call Digital.</p>
+    <p class="credit">Contains Environment Agency information © Environment Agency and/or database right, used under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>. Change maps, sections, contours, catchment and charts derived by Beck &amp; Call Digital.</p>
   </div>
 </section>
 
@@ -151,7 +146,7 @@
     <div class="contact-inner">
       <div>
         <h2>Tell me what you need.</h2>
-        <p>Say what you're trying to find out or keep track of, not what you think needs building. If I'm not the right fit, I'll say so and point you somewhere better.</p>
+        <p>Say what you have and what you want to know, not what you think needs building. If I'm not the right fit, I'll say so and point you somewhere better.</p>
         <p>Prefer email? <a href="mailto:admin@beckandcall.uk" class="mail">admin@beckandcall.uk</a></p>
       </div>
       <form action="https://formspree.io/f/mjgzqvgj" method="POST">
