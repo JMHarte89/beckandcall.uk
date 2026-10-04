@@ -206,5 +206,53 @@ footer .legal { display: block; margin-top: 8px; font-size: 0.8rem; color: rgba(
   .nav-links a:not(.nav-cta) { font-size: 0.95rem; }
 }
 @media (max-width: 800px) {
-  .fig figcaption::after { content: " Swipe the figure sideways, or tap it to open it full size."; color: var(--stone); }
+  .fig-scroll + figcaption::after { content: " Swipe the figure sideways, or tap it to open it full size."; color: var(--stone); }
+}
+
+/* Interactive structures register (organisations page). Data colours are red-amber-green. */
+.reg-warning { background: #fff8e1; border: 1px solid #e6c229; border-left: 5px solid #d7301f; border-radius: 10px;
+  padding: 14px 18px; margin: 0 0 16px; font-size: 0.95rem; color: var(--ink); }
+.reg { background: #fff; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; font-size: 0.9rem; }
+.reg-bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 12px 14px; background: var(--moss-deep); }
+.reg-bar input, .reg-bar select { font: inherit; padding: 7px 10px; border-radius: 8px; border: 1px solid transparent; background: #fff; color: var(--ink); }
+.reg-bar input { flex: 1 1 200px; min-width: 0; }
+.reg-chip { font: inherit; font-weight: 500; padding: 6px 12px; border-radius: 100px; border: 1px solid rgba(255,255,255,0.45);
+  background: transparent; color: #fff; cursor: pointer; }
+.reg-chip[aria-pressed="true"] { background: #fff; color: var(--moss-deep); border-color: #fff; }
+.reg-count { margin-left: auto; color: #d9e3dd; font-size: 0.85rem; }
+.reg-main { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); }
+.reg-table { max-height: 700px; overflow: auto; border-right: 1px solid var(--line); position: relative; }
+.reg table { width: 100%; min-width: 620px; border-collapse: collapse; }
+.reg th { position: sticky; top: 0; background: var(--mist); text-align: left; padding: 0; white-space: nowrap; z-index: 1; }
+.reg th button { font: inherit; font-size: 0.78rem; font-weight: 600; color: var(--slate); background: none; border: 0; padding: 9px 10px; cursor: pointer; width: 100%; text-align: left; }
+.reg th[aria-sort="ascending"] button::after { content: " \25B2"; font-size: 0.6rem; }
+.reg th[aria-sort="descending"] button::after { content: " \25BC"; font-size: 0.6rem; }
+.reg td { padding: 8px 10px; border-top: 1px solid #ebe8df; vertical-align: middle; color: var(--slate); }
+.reg td.id { font-weight: 600; color: var(--ink); white-space: nowrap; }
+.reg td:nth-child(2), .reg td:nth-child(5), .reg td:nth-child(6) { white-space: nowrap; }
+.reg tbody tr { cursor: pointer; }
+.reg tbody tr:hover { background: #faf9f4; }
+.reg tbody tr.sel { background: var(--mist); box-shadow: inset 4px 0 0 var(--accent); }
+.reg tbody tr:focus-visible, .reg-chip:focus-visible, .reg th button:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.reg .late { color: #c62828; font-weight: 600; }
+.reg-pill { display: inline-block; padding: 2px 10px; border-radius: 100px; font-size: 0.78rem; font-weight: 600; white-space: nowrap; }
+.reg-side { padding: 14px; min-width: 0; }
+.reg-map svg { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: 8px; }
+.reg-credit { font-size: 0.74rem; color: var(--stone); margin: 6px 0 12px; }
+.reg-head { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.reg-head strong { font-size: 1.35rem; color: var(--moss-deep); }
+.reg-name { color: var(--slate); margin: 2px 0 12px; }
+.reg-detail dl { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 14px; margin-bottom: 14px; }
+.reg-detail dt { font-size: 0.76rem; color: var(--stone); }
+.reg-detail dd { font-weight: 500; color: var(--ink); }
+.reg-label { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--stone); margin-bottom: 8px; }
+.reg-hist { display: flex; gap: 8px; align-items: flex-end; }
+.reg-hist div { flex: 1; text-align: center; display: flex; flex-direction: column; justify-content: flex-end; }
+.reg-hist span { display: flex; align-items: flex-end; justify-content: center; border-radius: 4px; font-weight: 600; font-size: 0.8rem; padding-bottom: 2px; }
+.reg-hist small { color: var(--stone); font-size: 0.74rem; margin-top: 3px; }
+.reg-empty { padding: 14px; color: var(--stone); }
+@media (max-width: 860px) {
+  .reg-main { grid-template-columns: 1fr; }
+  .reg-table { max-height: 340px; border-right: 0; border-bottom: 1px solid var(--line); }
+  .reg-count { margin-left: 0; width: 100%; }
 }

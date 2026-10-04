@@ -105,11 +105,13 @@
       <figcaption><span class="status live">Open data</span> River Wharfe at Kettlewell, 23 to 27 March 2026: 62 mm of rain upstream, a 1.60 m rise, and 1 hour 45 minutes above the top of the gauge&#39;s typical range.</figcaption>
     </figure>
 
+    <div class="reg-warning" role="note">
+      <strong>Demonstration data. This is not a real register.</strong> The bridges and culverts are real places in upper Wharfedale, taken from OpenStreetMap. Every condition grade, inspection date and consequence rating was made up for this demonstration and says nothing about the actual condition of any structure.
+    </div>
     <figure class="fig">
-      <div class="fig-scroll">
-        <a href="assets/org/structures-register.svg"><img src="assets/org/structures-register.svg" width="960" height="600" loading="lazy" alt="Interface concept showing a register of structures filtered to poor condition, sorted by inspection due date, with one culvert record open."></a>
-      </div>
-      <figcaption><span class="status building">Concept</span> Illustrative data: a register filtered to the records that need attention, with one open. The same layout suits any list of things that get inspected.</figcaption>
+      <div id="register" class="reg"></div>
+      <noscript><p class="reg-empty">The register needs JavaScript. It is a searchable table of 96 bridges and culverts with a map and a record panel.</p></noscript>
+      <figcaption><span class="status building">Concept</span> A working register: search it, filter it, sort a column, or pick a structure on the map. Real locations from open map data, with made-up condition data.</figcaption>
     </figure>
   </div>
 </section>
@@ -128,12 +130,12 @@
         <tr><th>Seabed</th><td>The Environment Agency SurfZone DEM 2019, a published 2 m surface that joins land LIDAR to seabed data. It is a ready-made product, not a survey I processed from soundings.</td></tr>
         <tr><th>Terrain analysis</th><td>Environment Agency LIDAR Composite, with drainage direction and flow accumulation worked out in WhiteboxTools.</td></tr>
         <tr><th>River and rain</th><td>Environment Agency hydrology service, 15-minute readings, shown as published before the Agency's quality checks.</td></tr>
-        <tr><th>Register</th><td>A made-up stock from a seeded generator. It describes no real asset, place or organisation.</td></tr>
+        <tr><th>Register</th><td>Bridge and culvert locations, road names and watercourse names from OpenStreetMap. Condition grades, dates and ratings come from a seeded generator and are not real.</td></tr>
         <tr><th>Drawing</th><td>Python writing SVG directly. No screenshots and no image files, so every figure stays sharp at any size.</td></tr>
         <tr><th>Your data</th><td>Stays yours. I work on a copy you control, and the scripts and outputs are handed over with the work.</td></tr>
       </table>
     </div>
-    <p class="credit">Contains Environment Agency information © Environment Agency and/or database right, used under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>. Change maps, sections, contours, catchment and charts derived by Beck &amp; Call Digital.</p>
+    <p class="credit">Contains Environment Agency information © Environment Agency and/or database right, used under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>. Register locations and map lines © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>, under the Open Database Licence. Change maps, sections, contours, catchment and charts derived by Beck &amp; Call Digital.</p>
   </div>
 </section>
 
@@ -164,5 +166,7 @@
   <a href="mailto:admin@beckandcall.uk">admin@beckandcall.uk</a>
 </footer>
 
+<script src="assets/org/register-data.js" defer></script>
+<script src="assets/org/register.js" defer></script>
 </body>
 </html>
