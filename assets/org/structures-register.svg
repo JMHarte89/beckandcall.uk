@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600" role="img" font-family="'Schibsted Grotesk','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">
+<title>Concept interface: a structures register filtered to poor condition</title>
+<desc>Interface concept showing a searchable register of structures filtered to condition grade four and five, sorted by inspection due date, with a detail panel for one culvert showing its attributes, a schematic location and its condition history. All data is synthetic.</desc>
+<rect width="960" height="600" fill="#fff"/>
+<text x="24" y="32" font-size="16" fill="#1c2620" font-weight="600" >Structures register, filtered to the structures that need attention</text>
+<rect x="752.6" y="18" width="183.4" height="19" fill="#fff" stroke="#c2703d" stroke-width="1" rx="9.5" />
+<text x="844.3" y="31" font-size="10" fill="#c2703d" text-anchor="middle" font-weight="600" letter-spacing="0.6">CONCEPT · ILLUSTRATIVE DATA</text>
+<rect x="24" y="50" width="912" height="516" fill="#fff" stroke="#dcd9cf" stroke-width="1" rx="10" />
+<path d="M24,90V60a10,10 0 0 1 10,-10H926a10,10 0 0 1 10,10V90Z" fill="#234438" />
+<text x="42" y="75" font-size="14" fill="#fff" font-weight="600" >Structures register</text>
+<text x="918" y="75" font-size="11.5" fill="#d9e3dd" text-anchor="end" >412 structures · 79 at grade 4 or 5</text>
+<rect x="40" y="102" width="210" height="24" fill="#f4f2ec" stroke="#dcd9cf" stroke-width="1" rx="6" />
+<text x="52" y="118" font-size="11" fill="#6b7872" >Search by ID, type or description</text>
+<rect x="264" y="102" width="79.6" height="24" fill="#fff" stroke="#dcd9cf" stroke-width="1" rx="12" />
+<text x="303.8" y="118" font-size="11" fill="#3f4f47" text-anchor="middle" font-weight="500" >All types</text>
+<rect x="351.6" y="102" width="98.8" height="24" fill="#2f5d4f" stroke="#2f5d4f" stroke-width="1" rx="12" />
+<text x="401" y="118" font-size="11" fill="#fff" text-anchor="middle" font-weight="500" >Grade 4 or 5</text>
+<rect x="458.4" y="102" width="137.2" height="24" fill="#fff" stroke="#dcd9cf" stroke-width="1" rx="12" />
+<text x="527" y="118" font-size="11" fill="#3f4f47" text-anchor="middle" font-weight="500" >Inspection overdue</text>
+<rect x="603.6" y="102" width="124.4" height="24" fill="#fff" stroke="#dcd9cf" stroke-width="1" rx="12" />
+<text x="665.8" y="118" font-size="11" fill="#3f4f47" text-anchor="middle" font-weight="500" >High consequence</text>
+<line x1="24" y1="138" x2="936" y2="138" stroke="#dcd9cf" stroke-width="1" />
+<line x1="642" y1="138" x2="642" y2="566" stroke="#dcd9cf" stroke-width="1" />
+<text x="42" y="158" font-size="10.5" fill="#6b7872" font-weight="600" letter-spacing="0.4">ID</text>
+<text x="110" y="158" font-size="10.5" fill="#6b7872" font-weight="600" letter-spacing="0.4">Type</text>
+<text x="210" y="158" font-size="10.5" fill="#6b7872" font-weight="600" letter-spacing="0.4">Description</text>
+<text x="376" y="158" font-size="10.5" fill="#6b7872" font-weight="600" letter-spacing="0.4">Condition</text>
+<text x="470" y="158" font-size="10.5" fill="#6b7872" font-weight="600" letter-spacing="0.4">Last inspected</text>
+<text x="564" y="158" font-size="10.5" fill="#6b7872" font-weight="600" letter-spacing="0.4">Next due</text>
+<rect x="25" y="168" width="617" height="36" fill="#f4f2ec" />
+<rect x="25" y="168" width="3" height="36" fill="#c2703d" />
+<line x1="25" y1="168" x2="642" y2="168" stroke="#ebe8df" stroke-width="1" />
+<text x="42" y="190" font-size="11.5" fill="#1c2620" font-weight="600" >CV-0038</text>
+<text x="110" y="190" font-size="11.5" fill="#3f4f47" >Culvert</text>
+<text x="210" y="190" font-size="11.5" fill="#3f4f47" >900 mm pipe</text>
+<rect x="376" y="177" width="78" height="18" fill="#c2703d" rx="9" />
+<text x="415" y="190" font-size="10.5" fill="#fff" text-anchor="middle" font-weight="600" >5 Very poor</text>
+<text x="470" y="190" font-size="11.5" fill="#3f4f47" >4 Jul 2022</text>
+<text x="564" y="190" font-size="11.5" fill="#c2703d" font-weight="600" >4 Jul 2024</text>
+<line x1="25" y1="204" x2="642" y2="204" stroke="#ebe8df" stroke-width="1" />
+<text x="42" y="226" font-size="11.5" fill="#1c2620" font-weight="600" >CV-0141</text>
+<text x="110" y="226" font-size="11.5" fill="#3f4f47" >Culvert</text>
+<text x="210" y="226" font-size="11.5" fill="#3f4f47" >450 mm pipe</text>
+<rect x="376" y="213" width="78" height="18" fill="#c2703d" rx="9" />
+<text x="415" y="226" font-size="10.5" fill="#fff" text-anchor="middle" font-weight="600" >5 Very poor</text>
+<text x="470" y="226" font-size="11.5" fill="#3f4f47" >3 Dec 2022</text>
+<text x="564" y="226" font-size="11.5" fill="#c2703d" font-weight="600" >3 Dec 2024</text>
+<line x1="25" y1="240" x2="642" y2="240" stroke="#ebe8df" stroke-width="1" />
+<text x="42" y="262" font-size="11.5" fill="#1c2620" font-weight="600" >RW-0014</text>
+<text x="110" y="262" font-size="11.5" fill="#3f4f47" >Retaining wall</text>
+<text x="210" y="262" font-size="11.5" fill="#3f4f47" >Concrete, 3 m high</text>
+<rect x="376" y="249" width="78" height="18" fill="#e0aa84" rx="9" />
+<text x="415" y="262" font-size="10.5" fill="#1c2620" text-anchor="middle" font-weight="600" >4 Poor</text>
+<text x="470" y="262" font-size="11.5" fill="#3f4f47" >4 May 2022</text>
+<text x="564" y="262" font-size="11.5" fill="#c2703d" font-weight="600" >4 May 2025</text>
+<line x1="25" y1="276" x2="642" y2="276" stroke="#ebe8df" stroke-width="1" />
+<text x="42" y="298" font-size="11.5" fill="#1c2620" font-weight="600" >OF-0012</text>
+<text x="110" y="298" font-size="11.5" fill="#3f4f47" >Outfall</text>
+<text x="210" y="298" font-size="11.5" fill="#3f4f47" >450 mm with headwall</text>
+<rect x="376" y="285" width="78" height="18" fill="#c2703d" rx="9" />
+<text x="415" y="298" font-size="10.5" fill="#fff" text-anchor="middle" font-weight="600" >5 Very poor</text>
+<text x="470" y="298" font-size="11.5" fill="#3f4f47" >4 May 2022</text>
+<text x="564" y="298" font-size="11.5" fill="#c2703d" font-weight="600" >4 May 2025</text>
+<line x1="25" y1="312" x2="642" y2="312" stroke="#ebe8df" stroke-width="1" />
+<text x="42" y="334" font-size="11.5" fill="#1c2620" font-weight="600" >TS-0007</text>
+<text x="110" y="334" font-size="11.5" fill="#3f4f47" >Trash screen</text>
+<text x="210" y="334" font-size="11.5" fill="#3f4f47" >Inclined bar screen</text>
+<rect x="376" y="321" width="78" height="18" fill="#e0aa84" rx="9" />
+<text x="415" y="334" font-size="10.5" fill="#1c2620" text-anchor="middle" font-weight="600" >4 Poor</text>
+<text x="470" y="334" font-size="11.5" fill="#3f4f47" >2 Jun 2024</text>
+<text x="564" y="334" font-size="11.5" fill="#c2703d" font-weight="600" >2 Jun 2025</text>
+<line x1="25" y1="348" x2="642" y2="348" stroke="#ebe8df" stroke-width="1" />
+<text x="42" y="370" font-size="11.5" fill="#1c2620" font-weight="600" >CV-0148</text>
+<text x="110" y="370" font-size="11.5" fill="#3f4f47" >Culvert</text>
+<text x="210" y="370" font-size="11.5" fill="#3f4f47" >Masonry arch, 1.2 m</text>
+<rect x="376" y="357" width="78" height="18" fill="#c2703d" rx="9" />
+<text x="415" y="370" font-size="10.5" fill="#fff" text-anchor="middle" font-weight="600" >5 Very poor</text>
+<text x="470" y="370" font-size="11.5" fill="#3f4f47" >3 Oct 2023</text>
+<text x="564" y="370" font-size="11.5" fill="#c2703d" font-weight="600" >3 Oct 2025</text>
+<line x1="25" y1="384" x2="642" y2="384" stroke="#ebe8df" stroke-width="1" />
+<text x="42" y="406" font-size="11.5" fill="#1c2620" font-weight="600" >OF-0017</text>
+<text x="110" y="406" font-size="11.5" fill="#3f4f47" >Outfall</text>
+<text x="210" y="406" font-size="11.5" fill="#3f4f47" >300 mm with flap valve</text>
+<rect x="376" y="393" width="78" height="18" fill="#c2703d" rx="9" />
+<text x="415" y="406" font-size="10.5" fill="#fff" text-anchor="middle" font-weight="600" >5 Very poor</text>
+<text x="470" y="406" font-size="11.5" fill="#3f4f47" >3 Oct 2022</text>
+<text x="564" y="406" font-size="11.5" fill="#c2703d" font-weight="600" >3 Oct 2025</text>
+<line x1="25" y1="420" x2="642" y2="420" stroke="#ebe8df" stroke-width="1" />
+<text x="42" y="442" font-size="11.5" fill="#1c2620" font-weight="600" >CV-0109</text>
+<text x="110" y="442" font-size="11.5" fill="#3f4f47" >Culvert</text>
+<text x="210" y="442" font-size="11.5" fill="#3f4f47" >Twin 600 mm pipes</text>
+<rect x="376" y="429" width="78" height="18" fill="#c2703d" rx="9" />
+<text x="415" y="442" font-size="10.5" fill="#fff" text-anchor="middle" font-weight="600" >5 Very poor</text>
+<text x="470" y="442" font-size="11.5" fill="#3f4f47" >3 Dec 2023</text>
+<text x="564" y="442" font-size="11.5" fill="#c2703d" font-weight="600" >3 Dec 2025</text>
+<line x1="25" y1="456" x2="642" y2="456" stroke="#ebe8df" stroke-width="1" />
+<text x="42" y="478" font-size="11.5" fill="#1c2620" font-weight="600" >CV-0022</text>
+<text x="110" y="478" font-size="11.5" fill="#3f4f47" >Culvert</text>
+<text x="210" y="478" font-size="11.5" fill="#3f4f47" >Twin 600 mm pipes</text>
+<rect x="376" y="465" width="78" height="18" fill="#e0aa84" rx="9" />
+<text x="415" y="478" font-size="10.5" fill="#1c2620" text-anchor="middle" font-weight="600" >4 Poor</text>
+<text x="470" y="478" font-size="11.5" fill="#3f4f47" >3 Mar 2024</text>
+<text x="564" y="478" font-size="11.5" fill="#c2703d" font-weight="600" >3 Mar 2026</text>
+<line x1="25" y1="492" x2="642" y2="492" stroke="#ebe8df" stroke-width="1" />
+<text x="42" y="514" font-size="11.5" fill="#1c2620" font-weight="600" >CV-0069</text>
+<text x="110" y="514" font-size="11.5" fill="#3f4f47" >Culvert</text>
+<text x="210" y="514" font-size="11.5" fill="#3f4f47" >900 mm pipe</text>
+<rect x="376" y="501" width="78" height="18" fill="#e0aa84" rx="9" />
+<text x="415" y="514" font-size="10.5" fill="#1c2620" text-anchor="middle" font-weight="600" >4 Poor</text>
+<text x="470" y="514" font-size="11.5" fill="#3f4f47" >2 Apr 2024</text>
+<text x="564" y="514" font-size="11.5" fill="#c2703d" font-weight="600" >2 Apr 2026</text>
+<line x1="25" y1="528" x2="642" y2="528" stroke="#ebe8df" stroke-width="1" />
+<text x="42" y="550" font-size="11" fill="#6b7872" >Showing 10 of 79, sorted by next inspection due</text>
+<text x="628" y="550" font-size="11" fill="#c2703d" text-anchor="end" >Orange dates are overdue</text>
+<text x="662" y="164" font-size="20" fill="#234438" font-weight="600" >CV-0038</text>
+<rect x="838" y="149" width="78" height="18" fill="#c2703d" rx="9" />
+<text x="877" y="162" font-size="10.5" fill="#fff" text-anchor="middle" font-weight="600" >5 Very poor</text>
+<text x="662" y="184" font-size="12" fill="#3f4f47" >Culvert · 900 mm pipe</text>
+<text x="662" y="208" font-size="10.5" fill="#6b7872" >Consequence if it fails</text>
+<text x="662" y="223" font-size="12.5" fill="#1c2620" font-weight="500" >Low</text>
+<text x="789" y="208" font-size="10.5" fill="#6b7872" >Inspection interval</text>
+<text x="789" y="223" font-size="12.5" fill="#1c2620" font-weight="500" >2 years</text>
+<text x="662" y="246" font-size="10.5" fill="#6b7872" >Last inspected</text>
+<text x="662" y="261" font-size="12.5" fill="#1c2620" font-weight="500" >4 Jul 2022</text>
+<text x="789" y="246" font-size="10.5" fill="#6b7872" >Next due</text>
+<text x="789" y="261" font-size="12.5" fill="#c2703d" font-weight="500" >4 Jul 2024 · overdue</text>
+<text x="662" y="292" font-size="10" fill="#6b7872" font-weight="600" letter-spacing="1">LOCATION (SCHEMATIC)</text>
+<rect x="662" y="302" width="254" height="110" fill="#f8f7f2" stroke="#dcd9cf" stroke-width="1" rx="6" />
+<clipPath id="loc"><rect x="662" y="302" width="254" height="110" rx="6"/></clipPath>
+<g clip-path="url(#loc)">
+<path d="M657,324C732,332 772,380 921,394" fill="none" stroke="#3a6b8a" stroke-width="3" stroke-linecap="round"/>
+<path d="M702,417L856,297" fill="none" stroke="#fff" stroke-width="11" />
+<path d="M702,417L856,297" fill="none" stroke="#cfcbbd" stroke-width="8" />
+</g>
+<circle cx="788.2" cy="357" r="10" fill="none" stroke="#c2703d" stroke-width="1.5" />
+<circle cx="788.2" cy="357" r="5.5" fill="#c2703d" stroke="#fff" stroke-width="1.5" />
+<text x="672" y="402" font-size="10.5" fill="#3a6b8a" font-weight="500" >Watercourse</text>
+<text x="906" y="320" font-size="10.5" fill="#6b7872" text-anchor="end" font-weight="500" >Road</text>
+<text x="662" y="436" font-size="10" fill="#6b7872" font-weight="600" letter-spacing="1">CONDITION AT EACH INSPECTION</text>
+<rect x="666" y="465" width="42.8" height="37" fill="#dcd9cf" rx="3" />
+<text x="687.4" y="497" font-size="11" fill="#1c2620" text-anchor="middle" font-weight="600" >3</text>
+<text x="687.4" y="517" font-size="10.5" fill="#6b7872" text-anchor="middle" >2014</text>
+<rect x="716.8" y="465" width="42.8" height="37" fill="#dcd9cf" rx="3" />
+<text x="738.2" y="497" font-size="11" fill="#1c2620" text-anchor="middle" font-weight="600" >3</text>
+<text x="738.2" y="517" font-size="10.5" fill="#6b7872" text-anchor="middle" >2016</text>
+<rect x="767.6" y="456" width="42.8" height="46" fill="#e0aa84" rx="3" />
+<text x="789" y="497" font-size="11" fill="#1c2620" text-anchor="middle" font-weight="600" >4</text>
+<text x="789" y="517" font-size="10.5" fill="#6b7872" text-anchor="middle" >2018</text>
+<rect x="818.4" y="456" width="42.8" height="46" fill="#e0aa84" rx="3" />
+<text x="839.8" y="497" font-size="11" fill="#1c2620" text-anchor="middle" font-weight="600" >4</text>
+<text x="839.8" y="517" font-size="10.5" fill="#6b7872" text-anchor="middle" >2020</text>
+<rect x="869.2" y="447" width="42.8" height="55" fill="#c2703d" rx="3" />
+<text x="890.6" y="497" font-size="11" fill="#fff" text-anchor="middle" font-weight="600" >5</text>
+<text x="890.6" y="517" font-size="10.5" fill="#6b7872" text-anchor="middle" >2022</text>
+<rect x="662" y="536" width="118" height="28" fill="#2f5d4f" rx="14" />
+<text x="721" y="554" font-size="11.5" fill="#fff" text-anchor="middle" font-weight="600" >Add inspection</text>
+<rect x="790" y="536" width="100" height="28" fill="#fff" stroke="#dcd9cf" stroke-width="1" rx="14" />
+<text x="840" y="554" font-size="11.5" fill="#234438" text-anchor="middle" font-weight="600" >Export record</text>
+<text x="24" y="586" font-size="10.5" fill="#6b7872" >Concept interface, not a delivered product. Illustrative data: a synthetic stock that does not describe any real asset, place or organisation.</text>
+</svg>

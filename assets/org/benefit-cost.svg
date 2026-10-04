@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 578" width="960" height="578" role="img" font-family="'Schibsted Grotesk','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">
+<title>Benefit-cost ratio across candidate schemes, with sensitivity range</title>
+<desc>Ranked chart of 24 synthetic candidate schemes showing each benefit-cost ratio with its sensitivity range against a break-even line at one. 9 stay above one across the whole range and 3 never reach it.</desc>
+<rect width="960" height="578" fill="#fff"/>
+<text x="24" y="32" font-size="16" fill="#1c2620" font-weight="600" >Benefit-cost ratio across candidate schemes, with sensitivity range</text>
+<rect x="752.6" y="18" width="183.4" height="19" fill="#fff" stroke="#c2703d" stroke-width="1" rx="9.5" />
+<text x="844.3" y="31" font-size="10" fill="#c2703d" text-anchor="middle" font-weight="600" letter-spacing="0.6">CONCEPT · ILLUSTRATIVE DATA</text>
+<circle cx="29" cy="62" r="4.5" fill="#2f5d4f" />
+<text x="40" y="66" font-size="11.5" fill="#3f4f47" >9 above 1.0 across the whole range</text>
+<circle cx="279.2" cy="62" r="4.5" fill="#6b7872" />
+<text x="290.2" y="66" font-size="11.5" fill="#3f4f47" >12 depend on the assumptions</text>
+<circle cx="491.6" cy="62" r="4.5" fill="#c2703d" />
+<text x="502.6" y="66" font-size="11.5" fill="#3f4f47" >3 below 1.0 across the whole range</text>
+<text x="24" y="100" font-size="11" fill="#6b7872" font-weight="600" >Scheme</text>
+<text x="936" y="100" font-size="11" fill="#6b7872" text-anchor="end" font-weight="600" >Cost</text>
+<line x1="250" y1="108" x2="250" y2="520" stroke="#ebe8df" stroke-width="1" />
+<text x="250" y="100" font-size="10.5" fill="#6b7872" text-anchor="middle" >0.0</text>
+<line x1="340" y1="108" x2="340" y2="520" stroke="#ebe8df" stroke-width="1" />
+<text x="340" y="100" font-size="10.5" fill="#6b7872" text-anchor="middle" >1.0</text>
+<line x1="430" y1="108" x2="430" y2="520" stroke="#ebe8df" stroke-width="1" />
+<text x="430" y="100" font-size="10.5" fill="#6b7872" text-anchor="middle" >2.0</text>
+<line x1="520" y1="108" x2="520" y2="520" stroke="#ebe8df" stroke-width="1" />
+<text x="520" y="100" font-size="10.5" fill="#6b7872" text-anchor="middle" >3.0</text>
+<line x1="610" y1="108" x2="610" y2="520" stroke="#ebe8df" stroke-width="1" />
+<text x="610" y="100" font-size="10.5" fill="#6b7872" text-anchor="middle" >4.0</text>
+<line x1="700" y1="108" x2="700" y2="520" stroke="#ebe8df" stroke-width="1" />
+<text x="700" y="100" font-size="10.5" fill="#6b7872" text-anchor="middle" >5.0</text>
+<line x1="790" y1="108" x2="790" y2="520" stroke="#ebe8df" stroke-width="1" />
+<text x="790" y="100" font-size="10.5" fill="#6b7872" text-anchor="middle" >6.0+</text>
+<line x1="340" y1="108" x2="340" y2="524" stroke="#1c2620" stroke-width="1.2" stroke-dasharray="5 3" />
+<text x="340" y="538" font-size="11" fill="#1c2620" text-anchor="middle" font-weight="600" >Break-even</text>
+<text x="790" y="538" font-size="10.5" fill="#6b7872" text-anchor="end" >Benefit-cost ratio</text>
+<rect x="24" y="112" width="912" height="17" fill="#faf9f4" />
+<text x="28" y="124.5" font-size="11" fill="#6b7872" >S-05</text>
+<text x="66" y="124.5" font-size="11.5" fill="#1c2620" >Parapet and arch repair, BR-0037</text>
+<line x1="502.7" y1="120.5" x2="790" y2="120.5" stroke="#2f5d4f" stroke-width="3" stroke-opacity="0.35" stroke-linecap="round"/>
+<circle cx="663.4" cy="120.5" r="4.5" fill="#2f5d4f" stroke="#fff" stroke-width="1" />
+<text x="932" y="124.5" font-size="11.5" fill="#3f4f47" text-anchor="end" >£770k</text>
+<text x="28" y="141.5" font-size="11" fill="#6b7872" >S-12</text>
+<text x="66" y="141.5" font-size="11.5" fill="#1c2620" >Wall stabilisation, RW-0017</text>
+<line x1="415.8" y1="137.5" x2="550.3" y2="137.5" stroke="#2f5d4f" stroke-width="3" stroke-opacity="0.35" stroke-linecap="round"/>
+<circle cx="489.5" cy="137.5" r="4.5" fill="#2f5d4f" stroke="#fff" stroke-width="1" />
+<text x="932" y="141.5" font-size="11.5" fill="#3f4f47" text-anchor="end" >£350k</text>
+<rect x="24" y="146" width="912" height="17" fill="#faf9f4" />
+<text x="28" y="158.5" font-size="11" fill="#6b7872" >S-21</text>
+<text x="66" y="158.5" font-size="11.5" fill="#1c2620" >Wall stabilisation, RW-0034</text>
+<line x1="405.4" y1="154.5" x2="537" y2="154.5" stroke="#2f5d4f" stroke-width="3" stroke-opacity="0.35" stroke-linecap="round"/>
+<circle cx="487.2" cy="154.5" r="4.5" fill="#2f5d4f" stroke="#fff" stroke-width="1" />
+<text x="932" y="158.5" font-size="11.5" fill="#3f4f47" text-anchor="end" >£100k</text>
+<text x="28" y="175.5" font-size="11" fill="#6b7872" >S-10</text>
+<text x="66" y="175.5" font-size="11.5" fill="#1c2620" >Screen replacement, TS-0008</text>
+<line x1="350.3" y1="171.5" x2="461.2" y2="171.5" stroke="#2f5d4f" stroke-width="3" stroke-opacity="0.35" stroke-linecap="round"/>
+<circle cx="425.8" cy="171.5" r="4.5" fill="#2f5d4f" stroke="#fff" stroke-width="1" />
+<text x="932" y="175.5" font-size="11.5" fill="#3f4f47" text-anchor="end" >£240k</text>
+<rect x="24" y="180" width="912" height="17" fill="#faf9f4" />
+<text x="28" y="192.5" font-size="11" fill="#6b7872" >S-04</text>
+<text x="66" y="192.5" font-size="11.5" fill="#1c2620" >Inlet and headwall rebuild, CV-0109</text>
+<line x1="369.4" y1="188.5" x2="500.8" y2="188.5" stroke="#2f5d4f" stroke-width="3" stroke-opacity="0.35" stroke-linecap="round"/>
+<circle cx="424.4" cy="188.5" r="4.5" fill="#2f5d4f" stroke="#fff" stroke-width="1" />
+<text x="932" y="192.5" font-size="11.5" fill="#3f4f47" text-anchor="end" >£45k</text>
+<text x="28" y="209.5" font-size="11" fill="#6b7872" >S-03</text>
+<text x="66" y="209.5" font-size="11.5" fill="#1c2620" >Wall stabilisation, RW-0014</text>
+<line x1="349.8" y1="205.5" x2="469.2" y2="205.5" stroke="#2f5d4f" stroke-width="3" stroke-opacity="0.35" stroke-linecap="round"/>
+<circle cx="420.3" cy="205.5" r="4.5" fill="#2f5d4f" stroke="#fff" stroke-width="1" />
+<text x="932" y="209.5" font-size="11.5" fill="#3f4f47" text-anchor="end" >£325k</text>
+<rect x="24" y="214" width="912" height="17" fill="#faf9f4" />
+<text x="28" y="226.5" font-size="11" fill="#6b7872" >S-09</text>
+<text x="66" y="226.5" font-size="11.5" fill="#1c2620" >Wall stabilisation, RW-0010</text>
+<line x1="350.8" y1="222.5" x2="455.5" y2="222.5" stroke="#2f5d4f" stroke-width="3" stroke-opacity="0.35" stroke-linecap="round"/>
+<circle cx="401.1" cy="222.5" r="4.5" fill="#2f5d4f" stroke="#fff" stroke-width="1" />
+<text x="932" y="226.5" font-size="11.5" fill="#3f4f47" text-anchor="end" >£190k</text>
+<text x="28" y="243.5" font-size="11" fill="#6b7872" >S-20</text>
+<text x="66" y="243.5" font-size="11.5" fill="#1c2620" >Culvert relining, CV-0033</text>
+<line x1="353.2" y1="239.5" x2="446.9" y2="239.5" stroke="#2f5d4f" stroke-width="3" stroke-opacity="0.35" stroke-linecap="round"/>
+<circle cx="388.6" cy="239.5" r="4.5" fill="#2f5d4f" stroke="#fff" stroke-width="1" />
+<text x="932" y="243.5" font-size="11.5" fill="#3f4f47" text-anchor="end" >£85k</text>
+<rect x="24" y="248" width="912" height="17" fill="#faf9f4" />
+<text x="28" y="260.5" font-size="11" fill="#6b7872" >S-13</text>
+<text x="66" y="260.5" font-size="11.5" fill="#1c2620" >Outfall and flap valve renewal, OF-0012</text>
+<line x1="329.6" y1="256.5" x2="425.9" y2="256.5" stroke="#6b7872" stroke-width="3" stroke-opacity="0.35" stroke-linecap="round"/>
+<circle cx="380.4" cy="256.5" r="4.5" fill="#6b7872" stroke="#fff" stroke-width="1" />
+<text x="932" y="260.5" font-size="11.5" fill="#3f4f47" text-anchor="end" >£55k</text>
+<text x="28" y="277.5" font-size="11" fill="#6b7872" >S-19</text>
+<text x="66" y="277.5" font-size="11.5" fill="#1c2620" >Outfall and flap valve renewal, OF-0017</text>
+<line x1="347.9" y1="273.5" x2="421.2" y2="273.5" stroke="#2f5d4f" stroke-width="3" stroke-opacity="0.35" stroke-linecap="round"/>
+<circle cx="375.9" cy="273.5" r="4.5" fill="#2f5d4f" stroke="#fff" stroke-width="1" />
+<text x="932" y="277.5" font-size="11.5" fill="#3f4f47" text-anchor="end" >£280k</text>
+<rect x="24" y="282" width="912" height="17" fill="#faf9f4" />
+<text x="28" y="294.5" font-size="11" fill="#6b7872" >S-14</text>
+<text x="66" y="294.5" font-size="11.5" fill="#1c2620" >Culvert replacement, CV-0138</text>
+<line x1="323.2" y1="290.5" x2="405.2" y2="290.5" stroke="#6b7872" stroke-width="3" stroke-opacity="0.35" stroke-linecap="round"/>
+<circle cx="371.4" cy="290.5" r="4.5" fill="#6b7872" stroke="#fff" stroke-width="1" />
+<text x="932" y="294.5" font-size="11.5" fill="#3f4f47" text-anchor="end" >£65k</text>
+<text x="28" y="311.5" font-size="11" fill="#6b7872" >S-07</text>
+<text x="66" y="311.5" font-size="11.5" fill="#1c2620" >Scour protection, BR-0066</text>
+<line x1="324.6" y1="307.5" x2="411.7" y2="307.5" stroke="#6b7872" stroke-width="3" stroke-opacity="0.35" stroke-linecap="round"/>
+<circle cx="360.5" cy="307.5" r="4.5" fill="#6b7872" stroke="#fff" stroke-width="1" />
+<text x="932" y="311.5" font-size="11.5" fill="#3f4f47" text-anchor="end" >£210k</text>
+<rect x="24" y="316" width="912" height="17" fill="#faf9f4" />
+<text x="28" y="328.5" font-size="11" fill="#6b7872" >S-15</text>
+<text x="66" y="328.5" font-size="11.5" fill="#1c2620" >Wall rebuild, RW-0005</text>
+<line x1="324.7" y1="324.5" x2="379.8" y2="324.5" stroke="#6b7872" stroke-width="3" stroke-opacity="0.35" stroke-linecap="round"/>
+<circle cx="355.2" cy="324.5" r="4.5" fill="#6b7872" stroke="#fff" stroke-width="1" />
+<text x="932" y="328.5" font-size="11.5" fill="#3f4f47" text-anchor="end" >£130k</text>
+<text x="28" y="345.5" font-size="11" fill="#6b7872" >S-08</text>
+<text x="66" y="345.5" font-size="11.5" fill="#1c2620" >Outfall and flap valve renewal, OF-0009</text>
+<line x1="318" y1="341.5" x2="380.6" y2="341.5" stroke="#6b7872" stroke-width="3" stroke-opacity="0.35" stroke-linecap="round"/>
+<circle cx="351.7" cy="341.5" r="4.5" fill="#6b7872" stroke="#fff" stroke-width="1" />
+<text x="932" y="345.5" font-size="11.5" fill="#3f4f47" text-anchor="end" >£150k</text>
+<rect x="24" y="350" width="912" height="17" fill="#faf9f4" />
+<text x="28" y="362.5" font-size="11" fill="#6b7872" >S-22</text>
+<text x="66" y="362.5" font-size="11.5" fill="#1c2620" >Wall rebuild, RW-0054</text>
+<line x1="304.4" y1="358.5" x2="376.1" y2="358.5" stroke="#6b7872" stroke-width="3" stroke-opacity="0.35" stroke-linecap="round"/>
+<circle cx="343" cy="358.5" r="4.5" fill="#6b7872" stroke="#fff" stroke-width="1" />
+<text x="932" y="362.5" font-size="11.5" fill="#3f4f47" text-anchor="end" >£65k</text>
+<text x="28" y="379.5" font-size="11" fill="#6b7872" >S-23</text>
+<text x="66" y="379.5" font-size="11.5" fill="#1c2620" >Outfall and flap valve renewal, OF-0050</text>
+<line x1="313.7" y1="375.5" x2="378.2" y2="375.5" stroke="#6b7872" stroke-width="3" stroke-opacity="0.35" stroke-linecap="round"/>
+<circle cx="338.8" cy="375.5" r="4.5" fill="#6b7872" stroke="#fff" stroke-width="1" />
+<text x="932" y="379.5" font-size="11.5" fill="#3f4f47" text-anchor="end" >£50k</text>
+<rect x="24" y="384" width="912" height="17" fill="#faf9f4" />
+<text x="28" y="396.5" font-size="11" fill="#6b7872" >S-24</text>
+<text x="66" y="396.5" font-size="11.5" fill="#1c2620" >Culvert replacement, CV-0127</text>
+<line x1="316.1" y1="392.5" x2="366.7" y2="392.5" stroke="#6b7872" stroke-width="3" stroke-opacity="0.35" stroke-linecap="round"/>
+<circle cx="333.4" cy="392.5" r="4.5" fill="#6b7872" stroke="#fff" stroke-width="1" />
+<text x="932" y="396.5" font-size="11.5" fill="#3f4f47" text-anchor="end" >£140k</text>
+<text x="28" y="413.5" font-size="11" fill="#6b7872" >S-06</text>
+<text x="66" y="413.5" font-size="11.5" fill="#1c2620" >Wall rebuild, RW-0002</text>
+<line x1="313.2" y1="409.5" x2="356.1" y2="409.5" stroke="#6b7872" stroke-width="3" stroke-opacity="0.35" stroke-linecap="round"/>
+<circle cx="332.2" cy="409.5" r="4.5" fill="#6b7872" stroke="#fff" stroke-width="1" />
+<text x="932" y="413.5" font-size="11.5" fill="#3f4f47" text-anchor="end" >£130k</text>
+<rect x="24" y="418" width="912" height="17" fill="#faf9f4" />
+<text x="28" y="430.5" font-size="11" fill="#6b7872" >S-18</text>
+<text x="66" y="430.5" font-size="11.5" fill="#1c2620" >Culvert relining, CV-0154</text>
+<line x1="310.7" y1="426.5" x2="365.8" y2="426.5" stroke="#6b7872" stroke-width="3" stroke-opacity="0.35" stroke-linecap="round"/>
+<circle cx="331.6" cy="426.5" r="4.5" fill="#6b7872" stroke="#fff" stroke-width="1" />
+<text x="932" y="430.5" font-size="11.5" fill="#3f4f47" text-anchor="end" >£220k</text>
+<text x="28" y="447.5" font-size="11" fill="#6b7872" >S-16</text>
+<text x="66" y="447.5" font-size="11.5" fill="#1c2620" >Culvert relining, CV-0141</text>
+<line x1="295.9" y1="443.5" x2="360.2" y2="443.5" stroke="#6b7872" stroke-width="3" stroke-opacity="0.35" stroke-linecap="round"/>
+<circle cx="331.5" cy="443.5" r="4.5" fill="#6b7872" stroke="#fff" stroke-width="1" />
+<text x="932" y="447.5" font-size="11.5" fill="#3f4f47" text-anchor="end" >£150k</text>
+<rect x="24" y="452" width="912" height="17" fill="#faf9f4" />
+<text x="28" y="464.5" font-size="11" fill="#6b7872" >S-01</text>
+<text x="66" y="464.5" font-size="11.5" fill="#1c2620" >Culvert replacement, CV-0038</text>
+<line x1="300.8" y1="460.5" x2="338.3" y2="460.5" stroke="#c2703d" stroke-width="3" stroke-opacity="0.35" stroke-linecap="round"/>
+<circle cx="319.4" cy="460.5" r="4.5" fill="#c2703d" stroke="#fff" stroke-width="1" />
+<text x="932" y="464.5" font-size="11.5" fill="#3f4f47" text-anchor="end" >£140k</text>
+<text x="28" y="481.5" font-size="11" fill="#6b7872" >S-11</text>
+<text x="66" y="481.5" font-size="11.5" fill="#1c2620" >Culvert relining, CV-0022</text>
+<line x1="303.2" y1="477.5" x2="347.1" y2="477.5" stroke="#6b7872" stroke-width="3" stroke-opacity="0.35" stroke-linecap="round"/>
+<circle cx="318" cy="477.5" r="4.5" fill="#6b7872" stroke="#fff" stroke-width="1" />
+<text x="932" y="481.5" font-size="11.5" fill="#3f4f47" text-anchor="end" >£700k</text>
+<rect x="24" y="486" width="912" height="17" fill="#faf9f4" />
+<text x="28" y="498.5" font-size="11" fill="#6b7872" >S-02</text>
+<text x="66" y="498.5" font-size="11.5" fill="#1c2620" >Inlet and headwall rebuild, CV-0041</text>
+<line x1="295.2" y1="494.5" x2="332.5" y2="494.5" stroke="#c2703d" stroke-width="3" stroke-opacity="0.35" stroke-linecap="round"/>
+<circle cx="313.4" cy="494.5" r="4.5" fill="#c2703d" stroke="#fff" stroke-width="1" />
+<text x="932" y="498.5" font-size="11.5" fill="#3f4f47" text-anchor="end" >£260k</text>
+<text x="28" y="515.5" font-size="11" fill="#6b7872" >S-17</text>
+<text x="66" y="515.5" font-size="11.5" fill="#1c2620" >Culvert relining, CV-0110</text>
+<line x1="281.7" y1="511.5" x2="323.2" y2="511.5" stroke="#c2703d" stroke-width="3" stroke-opacity="0.35" stroke-linecap="round"/>
+<circle cx="305.6" cy="511.5" r="4.5" fill="#c2703d" stroke="#fff" stroke-width="1" />
+<text x="932" y="515.5" font-size="11.5" fill="#3f4f47" text-anchor="end" >£160k</text>
+<text x="24" y="564" font-size="10.5" fill="#6b7872" >Illustrative data: a synthetic stock generated for this page. It does not describe any real asset, place or organisation.</text>
+</svg>

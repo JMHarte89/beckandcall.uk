@@ -184,3 +184,27 @@ footer { background: var(--ink); color: rgba(244,242,236,0.6); text-align:center
 footer .logo { font-size:1.1rem; display:block; margin-bottom:8px; color:#fff; }
 footer a { color: rgba(244,242,236,0.75); }
 footer .legal { display: block; margin-top: 8px; font-size: 0.8rem; color: rgba(244,242,236,0.5); }
+
+/* Figures (organisations page): SVG built by tools/org-visuals, each with a one-line caption */
+.figs .section-head { margin-bottom: 30px; }
+.figs .fig + .section-head, .figs .note + .section-head { margin-top: 20px; }
+.fig { margin: 0 0 44px; }
+.fig:last-child { margin-bottom: 0; }
+.fig-scroll { background: #fff; border: 1px solid var(--line); border-radius: 14px; overflow-x: auto; }
+.fig-scroll a { display: block; }
+.fig img { display: block; width: 100%; height: auto; min-width: 760px; }
+.fig figcaption { margin-top: 12px; font-size: 0.98rem; color: var(--slate); max-width: 78ch; }
+.fig figcaption .status, .note .status { margin-right: 4px; }
+.credit { margin-top: 26px; font-size: 0.86rem; color: var(--stone); max-width: 78ch; }
+
+/* Phones: the logo takes the first row, page links the second; in-page anchor links drop out */
+@media (max-width: 600px) {
+  .nav-inner { flex-wrap: wrap; row-gap: 10px; padding: 14px 20px; }
+  .logo { white-space: nowrap; }
+  .nav-links { width: 100%; justify-content: space-between; gap: 12px; }
+  .nav-links a[href^="#"]:not(.nav-cta), .nav-links a[href^="/#"] { display: none; }
+  .nav-links a:not(.nav-cta) { font-size: 0.95rem; }
+}
+@media (max-width: 800px) {
+  .fig figcaption::after { content: " Swipe the figure sideways, or tap it to open it full size."; color: var(--stone); }
+}
